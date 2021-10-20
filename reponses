@@ -1,0 +1,9 @@
+1.
+
+La chaine entre parenthese est comparé à la chaine où la methode est utilisée. Ceci dans les deux cas
+
+
+2.
+
+Le retour de cette méthode est un int, il indique la difference lexicographique entre les deux chaines. Cet int peut etre negatif si le premier caractère differente est, pour la chaine de la méthode, plus tot dans le tableau ASCII, positif si le premier caractère different est, pour la chaine entre parenthese, plus tot dans le tableau ASCII ou égal a 0 si les deux chaines sont identiques.
+La difference entre les deux méthodes est que "compareToIgnoreCase" ne vois aucune difference entre des lettres majuscules et minuscules.
