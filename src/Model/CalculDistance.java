@@ -12,7 +12,7 @@ public class CalculDistance {
      * @param fstString
      * @param sndStr
      */
-    public static int comapreTo(String fstString, String sndStr) {
+    public static int compareTo(String fstString, String sndStr) {
         return 1;
     }
 

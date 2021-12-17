@@ -1,11 +1,9 @@
 package Model;
 
-import java.util.*;
-
 /**
  * 
  */
-public interface strategieCalculDisctance {
+public interface strategieCalculDistance {
 
 
     /**

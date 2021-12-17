@@ -16,7 +16,7 @@ class TestCompare {
     public void test() {
         String str = "td4 de java";
         String str2 = "td4 de java";
-        assertEquals(CalculDistance.comapreTo(str, str2));
+        assertEquals(CalculDistance.compareTo(str, str2));
         assertEquals(CalculDistance.compareToIgnoreCase(str, str2));
     }
 
