@@ -1,6 +1,6 @@
 package Model;
 
-public class Contexte {
+public class Context {
     private strategieCalculDistance strat;
 
     public void compare(String fStr, String sdStr) {

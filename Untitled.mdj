@@ -237,9 +237,9 @@
 											"font": "Arial;13;1",
 											"left": 365,
 											"top": 279,
-											"width": 71.26513671875,
+											"width": 75.8544921875,
 											"height": 13,
-											"text": "CompareTo"
+											"text": "Levenshtein"
 										},
 										{
 											"_type": "LabelView",
@@ -272,7 +272,7 @@
 									"font": "Arial;13;0",
 									"left": 360,
 									"top": 272,
-									"width": 81.26513671875,
+									"width": 85.8544921875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF8nxSMW5/Rvfg="
@@ -299,7 +299,7 @@
 									"font": "Arial;13;0",
 									"left": 360,
 									"top": 297,
-									"width": 81.26513671875,
+									"width": 85.8544921875,
 									"height": 10
 								},
 								{
@@ -314,7 +314,7 @@
 									"font": "Arial;13;0",
 									"left": 360,
 									"top": 307,
-									"width": 81.26513671875,
+									"width": 85.8544921875,
 									"height": 10
 								},
 								{
@@ -354,7 +354,7 @@
 							"containerChangeable": true,
 							"left": 360,
 							"top": 272,
-							"width": 81.26513671875,
+							"width": 85.8544921875,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAF8nxSMW5/Qpcw="
@@ -415,7 +415,7 @@
 											"top": 279,
 											"width": 142.06689453125,
 											"height": 13,
-											"text": "CompareToIgnoreCase"
+											"text": "Hamming"
 										},
 										{
 											"_type": "LabelView",
@@ -769,7 +769,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 450,
+									"left": 451,
 									"top": 215,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -790,7 +790,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 439,
+									"left": 440,
 									"top": 204,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -811,7 +811,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 471,
+									"left": 472,
 									"top": 236,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -830,7 +830,7 @@
 								"$ref": "AAAAAAF8nxSMW5/PKu8="
 							},
 							"lineStyle": 1,
-							"points": "423:271;500:193",
+							"points": "424:271;501:193",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF8nxX726BuDRc="
@@ -1220,19 +1220,11 @@
 				},
 				{
 					"_type": "UMLClass",
-					"_id": "AAAAAAF8nxNoEp+i6a8=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "CalculDistance"
-				},
-				{
-					"_type": "UMLClass",
 					"_id": "AAAAAAF8nxSMW5/NNhM=",
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "CompareTo",
+					"name": "Levenshtein",
 					"ownedElements": [
 						{
 							"_type": "UMLInterfaceRealization",
@@ -1255,7 +1247,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "CompareToIgnoreCase",
+					"name": "Hamming",
 					"ownedElements": [
 						{
 							"_type": "UMLInterfaceRealization",
@@ -1325,7 +1317,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF8nxaQqqCYCH4="
 									},
-									"name": "String in fstString"
+									"name": "String in fstString",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1333,7 +1326,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF8nxaQqqCYCH4="
 									},
-									"name": "String sndStr"
+									"name": "String sndStr",
+									"type": ""
 								}
 							]
 						}
